@@ -1,0 +1,6 @@
+.three__wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}

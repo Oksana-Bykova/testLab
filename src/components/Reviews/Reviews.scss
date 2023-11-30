@@ -1,0 +1,102 @@
+/* @import "../../node_modules/slick-carousel/slick/slick.scss"; */
+
+@import "../../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css"; 
+
+
+.container {
+  padding: 0 80px 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.reviews__name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+
+.reviews__city {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #5e646a;
+}
+
+.reviews__container-for-information {
+  display: flex;
+}
+
+.reviews__text {
+  max-width: 297px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.reviews__card {
+    cursor: pointer;
+}
+
+ /*  Стили для слайдера из коробки  */
+
+ .slick-arrow {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    font-size: 10px;
+
+    &::before {
+      display: table;
+    }
+ }
+
+
+
+ .slick-prew {
+    left:0;
+
+    &::before {
+      content: url('../../images/Reviews/fi-sr-angle-left.svg');
+    }
+ }
+
+ .slick-next {
+    right: 0;
+
+    &::before {
+      content: url('../../images/Reviews/fi-sr-angle-left.svg');
+    }
+ }
+
+.slick-dots {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+
+li {
+   display: inline-block;
+   margin: 0 5px;
+}
+button{
+padding: 0;
+border: none;
+background-color: #5E646A;
+cursor: pointer;
+border-radius: 50%;
+width: 12px;
+height: 12px;
+font-size: 0;
+
+}
+}
