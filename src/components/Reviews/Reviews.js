@@ -1,15 +1,10 @@
 import React, { useEffect } from "react";
-//import { useEffect } from "react";
 
 import img1 from "../../images/Reviews/Ellipse 21.svg";
 import img2 from "../../images/Reviews/Ellipse 21 (1).svg";
 import img3 from "../../images/Reviews/Ellipse 21 (2).svg";
 
-import jQuery from "jquery";
-import "slick-carousel";
 import "./Reviews.scss";
-const $ = jQuery;
-$(".container").slick({ dots: true });
 
 function Reviews() {
   const array = [

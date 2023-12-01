@@ -4,6 +4,7 @@ import Promo from "../Promo/Promo";
 import Works from "../Works/Works";
 import Three from "../Three/Three";
 import Reviews from "../Reviews/Reviews";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
@@ -13,12 +14,14 @@ function App() {
           <Header></Header>
         </header>
         <main>
-<Promo></Promo>
-<Works></Works>
-<Three></Three>
-<Reviews></Reviews>
+          <Promo></Promo>
+          <Works></Works>
+          <Three></Three>
+          <Reviews></Reviews>
         </main>
-        <footer></footer>
+        <footer>
+          <Footer></Footer>
+        </footer>
       </div>
     </div>
   );

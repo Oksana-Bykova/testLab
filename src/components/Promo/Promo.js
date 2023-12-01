@@ -12,9 +12,12 @@ function Promo() {
         Сделай круто тестовое задание и у тебя получится
       </p>
       <div className="promo__container">
-      <button className="promo__button">Проще простого!</button>
+        <button className="promo__button">
+          <a className="promo__link" href="#works">
+            Проще простого!
+          </a>
+        </button>
       </div>
-      
     </section>
   );
 }
