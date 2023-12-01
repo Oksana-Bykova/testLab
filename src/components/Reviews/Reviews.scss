@@ -1,13 +1,39 @@
-/* @import "../../node_modules/slick-carousel/slick/slick.scss"; */
+.reviews {
+  background-color: #f6f8fa;
+  padding: 65px 16% 100px;
+}
 
-@import "../../../node_modules/slick-carousel/slick/slick.scss";
-@import "../../../node_modules/slick-carousel/slick/slick-theme.css"; 
+@media screen and (max-width: 1100px) {
+  .reviews {
+    padding: 65px 4% 100px;
+  }
+}
 
+@media screen and (max-width: 760px) {
+  .reviews {
+    padding: 47px 20% 45px;
+  }
+}
 
-.container {
-  padding: 0 80px 30px;
-  margin-top: 30px;
-  position: relative;
+@media screen and (max-width: 573px) {
+  .reviews {
+    padding: 47px 4% 45px;
+  }
+}
+
+.reviews__title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+@media screen and (max-width: 600px) {
+  .reviews__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
 }
 
 .reviews__name {
@@ -15,6 +41,7 @@
   font-weight: 600;
   line-height: 24px;
   margin: 0;
+  margin-top: 22px;
 }
 
 .reviews__city {
@@ -22,10 +49,13 @@
   font-weight: 400;
   line-height: 16px;
   color: #5e646a;
+  margin-top: 2px;
 }
 
 .reviews__container-for-information {
   display: flex;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .reviews__text {
@@ -33,70 +63,92 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 
 .reviews__card {
-    cursor: pointer;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.1);
+  width: 341px;
+  min-height: 316px;
 }
 
- /*  Стили для слайдера из коробки  */
-
- .slick-arrow {
-    position:absolute;
-    top: 50%;
-    transform: translateY(-50%);
-
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    cursor: pointer;
-    font-size: 10px;
-
-    &::before {
-      display: table;
-    }
- }
-
-
-
- .slick-prew {
-    left:0;
-
-    &::before {
-      content: url('../../images/Reviews/fi-sr-angle-left.svg');
-    }
- }
-
- .slick-next {
-    right: 0;
-
-    &::before {
-      content: url('../../images/Reviews/fi-sr-angle-left.svg');
-    }
- }
-
-.slick-dots {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-position: absolute;
-bottom: 0;
-left: 50%;
-transform: translateX(-50%);
-
-li {
-   display: inline-block;
-   margin: 0 5px;
+.reviews__wrapper {
+  margin-left: 21px;
 }
-button{
-padding: 0;
-border: none;
-background-color: #5E646A;
-cursor: pointer;
-border-radius: 50%;
-width: 12px;
-height: 12px;
-font-size: 0;
 
+// стили для swiper
+
+/* Стили для пагинации (точек) слайдера */
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
+
+.swiper-pagination-bullet {
+  /* Стили для отдельных точек пагинации */
+
+  width: 10px;
+  height: 10px;
+  background-color: #c2c8cd;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  overflow: visible;
+
+  &.swiper-pagination-bullet-active {
+    /* Стили для активной точки пагинации */
+
+    opacity: 1;
+    background-color: #2a6cea;
+  }
+}
+
+/* Стили для стрелок (навигации) слайдера */
+.swiper-button-prev,
+.swiper-button-next {
+  /* Стили для стрелок */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  color: #c2c8cd;
+  &:hover {
+    color: #2a6cea;
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+.swiper-button-prev {
+  /* Стили для кнопки "назад" */
+  // left: -10px;
+}
+
+.swiper-button-next {
+  /* Стили для кнопки "вперед" */
+  // right: -10px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  margin-right: 0;
 }

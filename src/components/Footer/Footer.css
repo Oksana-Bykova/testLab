@@ -1,12 +1,24 @@
-.footer  {
-    width: 100%;
-    border-top: 1px solid #ECEFF2;
+.footer {
+  width: 100%;
+  border-top: 1px solid #eceff2;
 }
 
 .footer__span {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px; 
-    margin: 28px auto 28px;
-    width: 266px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 28px auto 28px;
+  width: 266px;
+}
+
+.footer__line {
+  height: 2px;
+  border-top: 1px solid #eceff2;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer__line {
+    margin-top: 41px;
+  }
 }

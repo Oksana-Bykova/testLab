@@ -3,7 +3,8 @@
   width: 63%;
   justify-content: space-between;
   margin: 0 auto;
-  margin: 184px auto 10px;
+  margin: 184px auto 92px;
+  max-height: 329px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -15,17 +16,18 @@
 }
 
 @media screen and (max-width: 700px) {
-    .three__wrapper {
-        flex-direction: column-reverse;
-        width: 88%;
-    }
+  .three__wrapper {
+    flex-direction: column-reverse;
+    width: 88%;
+    max-height: 848px;
   }
+}
 
-  @media screen and (max-width: 325px) {
-    .three__wrapper {
-        width: 91%;
-    }
+@media screen and (max-width: 325px) {
+  .three__wrapper {
+    width: 91%;
   }
+}
 
 .three__title {
   font-size: 32px;
@@ -43,24 +45,25 @@
 }
 
 @media screen and (max-width: 700px) {
-    .three__title {
-      margin-top: 10px;
-      text-align: center;
-      margin-bottom: 0;
-    }
+  .three__title {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 0;
   }
+}
 
-  @media screen and (max-width: 325px) {
-    .three__title {
-        margin-top: 22px;
-    }
+@media screen and (max-width: 325px) {
+  .three__title {
+    margin-top: 22px;
   }
+}
 
 .three__text {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #5e646a;
+  max-width: 592px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -71,19 +74,19 @@
 }
 
 @media screen and (max-width: 700px) {
-    .three__text {
-        margin-left: auto;
-        margin-right: auto;
-      margin-top: 3px;
-      text-align: center;
-    }
+  .three__text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    text-align: center;
   }
+}
 
-  @media screen and (max-width: 325px) {
-    .three__text {
-      margin-top: 28px;
-    }
+@media screen and (max-width: 325px) {
+  .three__text {
+    margin-top: 28px;
   }
+}
 
 .three__container-img {
   transform: translateY(-95px);
@@ -99,7 +102,7 @@
 }
 
 .three__img {
-    width: 100%;  
+  width: 100%;
 }
 
 @media screen and (max-width: 1400px) {
@@ -109,3 +112,6 @@
   }
 }
 
+.three__container-text {
+  max-height: 329px;
+}

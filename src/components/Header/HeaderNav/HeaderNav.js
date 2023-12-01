@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import "./HeaderNav.scss";
 import logo from "../../../images/Group 75hi.svg";
+import arrow from "../../../images/fi-sr-angle-small-right.svg";
 
 function HeaderNav(props) {
   const [windowOuterWidth, setWindowOuterWidth] = React.useState(
@@ -30,10 +31,9 @@ function HeaderNav(props) {
       });
 
       link.forEach((item) => {
-
-        item.addEventListener("click", function() {
-        menu.classList.toggle("header-nav__menu_active");
-        menuBtn.classList.toggle("active");
+        item.addEventListener("click", function () {
+          menu.classList.toggle("header-nav__menu_active");
+          menuBtn.classList.toggle("active");
         });
       });
     }
@@ -50,21 +50,36 @@ function HeaderNav(props) {
         </button>
         <div className="header-nav__menu">
           <nav className="header-nav__nav">
-          <img className="header-nav__logo" src={logo} alt="логотип"></img>
+            <img className="header-nav__logo" src={logo} alt="логотип"></img>
             <ul className="header-nav__ul-burger">
               <li className="header-nav__li-burger">
                 <a href="#works" className="header-nav__link-burger">
                   Как это работает
+                  <img
+                    className="header-nav__img"
+                    alt="стрелка"
+                    src={arrow}
+                  ></img>
                 </a>
               </li>
               <li className="header-nav__li-burger">
                 <a href="#three" className="header-nav__link-burger">
                   3-й блок
+                  <img
+                    className="header-nav__img"
+                    alt="стрелка"
+                    src={arrow}
+                  ></img>
                 </a>
               </li>
               <li className="header-nav__li-burger">
                 <a href="#" className="header-nav__link-burger">
                   Вопросы и ответы
+                  <img
+                    className="header-nav__img"
+                    alt="стрелка"
+                    src={arrow}
+                  ></img>
                 </a>
               </li>
               <li className="header-nav__li-burger">
@@ -73,6 +88,11 @@ function HeaderNav(props) {
                   className="header-nav__link-burger  header-nav__link-burger_small"
                 >
                   Форма
+                  <img
+                    className="header-nav__img"
+                    alt="стрелка"
+                    src={arrow}
+                  ></img>
                 </a>
               </li>
             </ul>

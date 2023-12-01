@@ -8,17 +8,14 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .header {
-        margin-top: 20px;
-    }
+  .header {
+    margin-top: 20px;
   }
-
-
+}
 
 .header__logo-container {
   display: flex;
   max-width: 120px;
-  /* margin-right: 31%; */
 }
 
 .header__logo {
@@ -36,14 +33,13 @@
 }
 
 @media screen and (max-width: 1100px) {
-    .header__wrapper {
-        max-width: 96%;
-    }
+  .header__wrapper {
+    max-width: 96%;
   }
+}
 
-
-  @media screen and (max-width: 600px) {
-    .header__wrapper {
-        max-width: 90%;
-    }
+@media screen and (max-width: 600px) {
+  .header__wrapper {
+    max-width: 90%;
   }
+}
