@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/testLab/static/css/main.bb90cab5.css",
+    "main.js": "/testLab/static/js/main.adaff4ad.js",
+    "static/media/Lunch_atop_a_Skyscraper 1.svg": "/testLab/static/media/Lunch_atop_a_Skyscraper 1.483baf122c50406c8b66.svg",
+    "static/media/Lunch_atop_a_Skyscraper 2.svg": "/testLab/static/media/Lunch_atop_a_Skyscraper 2.45759ea7b4c80d582d55.svg",
+    "static/media/Ellipse 21 (1).svg": "/testLab/static/media/Ellipse 21 (1).70c54ed6bcdd201afe654b3b26ad0963.svg",
+    "static/media/Group 253.svg": "/testLab/static/media/Group 253.aab2789e606f9322b52fefcb0d0c1513.svg",
+    "static/media/Ellipse 21 (2).svg": "/testLab/static/media/Ellipse 21 (2).16cb963bf47924ea1ed86e3344f46b37.svg",
+    "static/media/Ellipse 21.svg": "/testLab/static/media/Ellipse 21.0054307e375cb595bb76b718ae091f78.svg",
+    "static/media/delivery-truck.svg": "/testLab/static/media/delivery-truck.51da6088074c960f3cb2064a98b81323.svg",
+    "static/media/money-bags.svg": "/testLab/static/media/money-bags.0710dd5614836107910420e54f651991.svg",
+    "static/media/Group 75hi.svg": "/testLab/static/media/Group 75hi.c1f1a612141e439ee5eaa62d40492d08.svg",
+    "static/media/Group 75.svg": "/testLab/static/media/Group 75.621e5f4d295fa145d557fe18b1adad62.svg",
+    "static/media/waiting.svg": "/testLab/static/media/waiting.eb67f8d6c1532b855211689fb9cc1f72.svg",
+    "static/media/secure.svg": "/testLab/static/media/secure.3dc7377cce5925ef222650ce3376ead6.svg",
+    "static/media/fi-sr-angle-small-right.svg": "/testLab/static/media/fi-sr-angle-small-right.cb8dc5e09bbf85b3cedae435ad2e7b58.svg",
+    "index.html": "/testLab/index.html",
+    "static/media/x_cross_delete_remove_icon_144023.svg": "/testLab/static/media/x_cross_delete_remove_icon_144023.dbf4a056bb627916a7cf.svg",
+    "main.bb90cab5.css.map": "/testLab/static/css/main.bb90cab5.css.map",
+    "main.adaff4ad.js.map": "/testLab/static/js/main.adaff4ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb90cab5.css",
+    "static/js/main.adaff4ad.js"
+  ]
+}
